@@ -147,7 +147,7 @@ public class Mandelbrot2 extends JPanel implements MouseListener, MouseMotionLis
     }
     public void saveImage() {
         try {
-            ImageIO.write(MSet,"PNG",new File("MSet.png"));
+            ImageIO.write(MSet,"PNG",new File("MandelSet.png"));
         }
         catch (IOException e) {}
     }
