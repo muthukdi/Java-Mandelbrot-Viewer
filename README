@@ -1,1 +1,3 @@
 This is a simple Mandelbrot Set viewer that I have coded using Java. The Mandelbrot Set is a very famous mathematical object known as a fractal. It was discovered by Benoit Mandelbrot. Its existence as a subset of the Complex Plane and fractal properties were known long before it was first plotted on a computer screen in the 1980s. This object, and others like it, has been a constant source of fascination for me throughout my life. It inspired me to pursue abstract mathematics and has recently inspired me to pursue computer programming.
+
+In the latest revision, I have removed the view resizing options and added a background thread for rendering the fractal.  This prevents the UI from freezing because rendering takes at least a few seconds to complete.
